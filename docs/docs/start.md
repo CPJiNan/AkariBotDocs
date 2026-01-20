@@ -2,6 +2,30 @@
 
 欢迎使用 AkariBot！本篇教程将帮助你进行插件初始化配置。
 
+## 环境要求
+
+使用插件前，请确保你的服务器已经安装了 [QQ 客户端](https://im.qq.com/index/)
+和 [LLBot](https://github.com/LLOneBot/LuckyLilliaBot/releases/latest) 等支持 OneBot 11 协议的 QQ 机器人框架。
+
+## 工作原理
+
+```mermaid
+flowchart LR
+    A[QQ 客户端] <--> B[LLBot 框架]
+    B <--> C[AkariBot 插件]
+    C <--> D[Bukkit 服务端]
+    
+    classDef client fill:#e1f5fe,stroke:#01579b,stroke-width:2px,color:#000000
+    classDef framework fill:#f3e5f5,stroke:#4a148c,stroke-width:2px,color:#000000
+    classDef plugin fill:#e8f5e8,stroke:#1b5e20,stroke-width:2px,color:#000000
+    classDef server fill:#fff3e0,stroke:#e65100,stroke-width:2px,color:#000000
+    
+    class A client
+    class B framework
+    class C plugin
+    class D server
+```
+
 ## 插件下载
 
 | 构建版本                                                                                                                                                    | 发行时间                                                                                                                                                   | 发行者                                                                                                                                                        |
