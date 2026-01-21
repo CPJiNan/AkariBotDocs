@@ -15,6 +15,13 @@ export default defineConfig({
                 {text: '✨ 插件简介', link: '/docs/intro'},
                 {text: '👋🏻 快速上手', link: '/docs/start'},
                 {
+                    text: '👋🏻 快速上手',
+                    items: [
+                        {text: '部署环境', link: '/docs/start/deploy'},
+                        {text: '安装插件', link: '/docs/start/install'}
+                    ]
+                },
+                {
                     text: '🏷 基础教程',
                     items: [
                         {text: '插件命令', link: '/docs/basic/command'},

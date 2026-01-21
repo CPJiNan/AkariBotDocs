@@ -1,11 +1,6 @@
-# 快速上手
+# 安装插件
 
 欢迎使用 AkariBot！本篇教程将帮助你进行插件初始化配置。
-
-## 环境要求
-
-使用插件前，请确保你的服务器已经安装了 [QQ 客户端](https://im.qq.com/index/)
-以及 [LLBot](https://github.com/LLOneBot/LuckyLilliaBot/releases/latest) 等支持 **OneBot 11** 协议的 QQ 机器人框架。
 
 ## 插件下载
 
