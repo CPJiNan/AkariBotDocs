@@ -28,4 +28,4 @@
 
 ## 下一步
 
-- [安装插件](/docs/basic/start/install)
+- [安装插件](/docs/start/install)
