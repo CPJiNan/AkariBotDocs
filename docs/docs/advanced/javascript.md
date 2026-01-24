@@ -29,6 +29,7 @@ var Listener = Packages.top.cpjinan.akaribot.script.ScriptListener;
 var Task = Packages.top.cpjinan.akaribot.script.ScriptTask;
 var Placeholder = Packages.top.cpjinan.akaribot.script.ScriptPlaceholder;
 var Database = Packages.top.cpjinan.akaribot.database.Database;
+var Cache = Packages.top.cpjinan.akaribot.cache.Cache;
 
 var BotPostEvent = Packages.top.cpjinan.akaribot.event.BotPostEvent;
 var PluginReloadEvent = Packages.top.cpjinan.akaribot.event.PluginReloadEvent;
