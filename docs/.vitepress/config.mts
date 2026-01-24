@@ -24,6 +24,15 @@ export default defineConfig({
                     text: '🏷 基础教程',
                     items: [
                         {text: '插件命令', link: '/docs/basic/command'},
+                        {
+                            text: 'JavaScript 脚本',
+                            link: '/docs/basic/javascript/',
+                            collapsed: true,
+                            items: [
+                                {text: 'BotPerformCommand', link: '/docs/basic/javascript/botperformcommand'},
+                                {text: 'BotPlayerList', link: '/docs/basic/javascript/botplayerlist'},
+                            ]
+                        }
                     ]
                 },
                 {
