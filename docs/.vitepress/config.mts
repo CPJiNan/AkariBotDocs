@@ -16,8 +16,8 @@ export default defineConfig({
                 {
                     text: '👋🏻 快速上手',
                     items: [
-                        {text: '部署环境', link: '/docs/start/deploy'},
-                        {text: '安装插件', link: '/docs/start/install'}
+                        {text: '部署 Bot', link: '/docs/start/bot'},
+                        {text: '安装插件', link: '/docs/start/plugin'}
                     ]
                 },
                 {

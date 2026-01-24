@@ -1,6 +1,6 @@
-# 部署环境
+# 部署 Bot
 
-欢迎使用 AkariBot！本篇教程将帮助你进行环境部署。
+欢迎使用 AkariBot！本篇教程将帮助你进行 Bot 部署。
 
 ## 环境需求
 
@@ -28,4 +28,4 @@
 
 ## 下一步
 
-- [安装插件](/docs/start/install)
+- [安装插件](/docs/start/plugin)
