@@ -29,8 +29,9 @@ export default defineConfig({
                             link: '/docs/basic/javascript/',
                             collapsed: true,
                             items: [
+                                {text: 'BotGroupServerChat', link: '/docs/basic/javascript/botgroupserverchat'},
                                 {text: 'BotPerformCommand', link: '/docs/basic/javascript/botperformcommand'},
-                                {text: 'BotPlayerList', link: '/docs/basic/javascript/botplayerlist'},
+                                {text: 'BotPlayerList', link: '/docs/basic/javascript/botplayerlist'}
                             ]
                         }
                     ]

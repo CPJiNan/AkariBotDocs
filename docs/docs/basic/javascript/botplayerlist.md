@@ -8,7 +8,7 @@
 
 ### 1. 如何自定义回复消息内容？
 
-修改 `onBotPostEvent` 方法的参数。
+修改 `onBotPost` 方法的参数。
 
 ``` javascript
 var playerListMessage = "服务器当前有 " + players.length + " 个玩家在线：" + "\\n" + playerNames.join(", ");

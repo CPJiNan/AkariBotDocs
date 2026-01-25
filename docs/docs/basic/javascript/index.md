@@ -12,10 +12,11 @@ AkariBot 提供了对 JavaScript 的支持，你可以通过脚本注册**命令
 
 ## 脚本列表
 
-| 脚本                | 说明         | 作者 |
-|-------------------|------------|----|
-| BotPerformCommand | Bot 执行命令   | 季楠 |
-| BotPlayerList     | Bot 玩家列表命令 | 季楠 |
+| 脚本                 | 说明         | 作者 |
+|--------------------|------------|----|
+| BotGroupServerChat | Bot 群服消息互通 | 季楠 |
+| BotPerformCommand  | Bot 执行命令   | 季楠 |
+| BotPlayerList      | Bot 玩家列表命令 | 季楠 |
 
 ## 贡献脚本
 
