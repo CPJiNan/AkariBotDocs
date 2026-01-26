@@ -58,8 +58,33 @@ Database:
 
 # 数据缓存设置
 Cache:
-  # 缓存方式 (LOCAL)
+  # 缓存方式 (LOCAL, REDIS)
   Type: LOCAL
+  # Redis 缓存设置
+  Redis:
+    host: localhost
+    port: 6379
+    password: password
+    ssl: false
+    timeout: PT15S
+    database: 0
+    ioThreadPoolSize: 0
+    computationThreadPoolSize: 0
+    autoReconnect: true
+    pingBeforeActivateConnection: true
+    pool:
+      lifo: true
+      fairness: false
+      maxTotal: 8
+      maxIdle: 8
+      minIdle: 0
+      testOnBorrow: false
+      maxWaitDuration: PT15S
+      blockWhenExhausted: true
+    asyncPool:
+      maxTotal: 8
+      maxIdle: 8
+      minIdle: 0
 ```
 
 ## 下一步
