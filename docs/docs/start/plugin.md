@@ -56,7 +56,7 @@ Database:
   SQLite:
     file: sqlite.db
 
-# 数据缓存设置
+# 缓存设置
 Cache:
   # 缓存方式 (LOCAL, REDIS)
   Type: LOCAL
