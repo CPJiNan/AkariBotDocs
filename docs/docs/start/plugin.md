@@ -55,6 +55,11 @@ Database:
   # SQLite 存储设置
   SQLite:
     file: sqlite.db
+
+# 数据缓存设置
+Cache:
+  # 缓存方式 (LOCAL)
+  Type: LOCAL
 ```
 
 ## 下一步
